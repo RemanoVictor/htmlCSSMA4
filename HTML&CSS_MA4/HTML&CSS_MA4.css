@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:20px;
+    color: #76767d;
+    font-family: 'Fredoka One', cursive;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 50px;
+    background-color: #A5F3E3;
+    font-size: 4em;
+    font-family: 'Luckiest Guy', cursive;
+    background-image:url(icecream.jpg);
+}
+
+nav{
+    display: inline-block;
+    width: 100%;
+    background-color: #FFD2D9;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 5px;
+    margin: 0px 10px 0px 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #76767d;
+}
+
+a:active{
+    text-decoration: underline;
+    text-decoration-color: #A5F3E3;
+}
+
+.navcontent{
+    display: inline;
+}
+
+.nav:hover .navcontent{
+    display: block;
+    position: relative;
+}
+
+.upper{
+    background-color:#FFFCE3;
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#column1{
+    float: left;
+    width: 32.6%;
+    background-color: bisque;
+    text-align: center;
+    margin:4px;
+}
+
+#column2{
+    float: left;
+    width: 32.6%;
+    text-align: center;
+    margin: 4.4px;
+    background-color: beige;
+}
+
+#column3{
+    float: left;
+    width: 32.6%;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 4px;
+}
+
+.wrapper::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+footer{
+    background-color: #A5F3E3;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 0.7em;
+}
+
+#flavour{
+    float: left;
+    background-color: beige;
+    width: 33%;
+    height: 100%;
+    margin: 10px 4px 10px 0px;
+    padding: 10px;
+    
+}
+
+#toppings{
+    float: left;
+    background-color: beige;
+    width: 33%;
+    height: 100%;
+    margin: 10px 5px 10px 3px;
+    padding: 10px;
+    
+}
+
+#size{
+    float: right;
+    background-color: beige;
+    width: 33%;
+    height: 100%;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+}
+
+b{
+    font-size:1.3em;
+}
+
+input[type=submit]{
+        background-color: beige;
+        font-size: 3em;
+        margin-left: 1000px;
+        border: none;
+        color: #76767d
+    }
+
+input[type=radio]{
+    margin-bottom: 30px;
+}
+
+input[type=submit]:active{
+    text-decoration: underline;
+    
+}
+
+input[type=submit]:hover{
+    background-color:bisque;
+}
+
+input[type=checkbox]{
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:500px){
+    
+    *{
+        box-sizing: border-box;
+    }
+    
+    header{
+        margin-bottom: 10px;
+        padding: 50px;
+    }
+    
+    body{
+        padding: 20px;
+    }
+    
+     ul{
+        list-style-type: none;
+        margin: 0px;
+        padding-left: 10px;;
+    }
+    
+    .navcontent{
+        display:contents;
+        position:relative;
+    }
+    
+    .upper{
+        margin-top: 10px;
+    }
+    
+    #column1{
+        width: 100%;
+        padding: 50px;
+        margin: 10px 10px 10px 0px;
+    }
+    
+    #column2{
+        width: 100%;
+        padding: 50px;
+        margin: 10px 10px 10px 0px;
+    }
+    
+    #column3{
+        width: 100%;
+        padding: 50px;
+        margin: 10px 10px 10px 0px;
+    }
+    
+    #flavour{
+        width: 100%;
+        padding: 50px;
+    }
+    
+    #toppings{
+        width: 100%;
+        padding: 50px;
+    }
+    
+    #size{
+        width: 100%;
+        padding: 50px;
+    }
+    
+    input[type=submit]{
+        background-color:beige;;
+        font-size: 2em;
+        margin-left: 130px;
+    }
+    
+    footer{
+        width: 100%;
+        padding: 25px;
+        margin: 5px 0px 0px 0px;
+    }
+    
+    
